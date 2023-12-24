@@ -1,0 +1,67 @@
+body{
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+#wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+#header {
+    width: 1200px;
+    height: 100px;
+    background-color: #fff;
+    background-image: url(../image/bcit_LOGO.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#nav {                  
+    width: 1200px;
+    height: 400px;
+    font-size: 13px;
+    background-image: url(../image/mainImg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(77%);
+}
+h1{
+    padding-top: 240px;
+    font-size: 45px;
+}
+p,h1{
+    padding-left: 10px;
+}
+#section {
+    width: 1200px;
+    height: 1200px;
+    background-color: #f4f4f4;
+    float: left;
+}
+h2{
+    font-size: 35px;
+    padding: 10px;
+}
+.section_image{
+    width: 1200px;
+}
+#section .content{
+    width: 780px;
+    float: left;
+}
+.content_title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #003C71;
+}
+#footer {
+    width: 1200px;
+    height: 80px;
+    background-color: #003C71;
+    clear: both;
+    font-size: small;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+}
